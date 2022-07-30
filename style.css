@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+
+.container img { 
+    display: none;
+
+}
+
+.container img:first-of-type {
+	display: block;
+
+}
+
+body{ 
+    background-color: grey;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0  5px;
+    
+    
+
+}
+
+nav a:hover{
+    color:black ;
+    text-decoration: underline;
+    border: 1px solid black;
+    background: rgb(0, 0, 255,.5);
+}
+
+#test {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#hello{
+    display: none
+} 
