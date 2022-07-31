@@ -46,10 +46,16 @@ nav a:hover{
     display: none
 } 
 
-ul{
-    box-sizing: border-box;
+li {
+    font-family: 'Teko', sans-serif;
+    list-style: none;
 }
 
 h2 {
+    font-family: 'Cinzel', serif;
     text-align: center;
+}
+
+li p{
+    font-family: 'Source Code Pro', monospace;
 }
