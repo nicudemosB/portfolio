@@ -3,6 +3,11 @@ $('h1').on('mouseover', () => {
     $('#hello').show(2000)
 })
 
+$('h2').on('click', () => {
+    $('.bio').show(2000)
+
+})
+
 
 
 
