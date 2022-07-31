@@ -6,7 +6,8 @@ h1 {
 
 .container img { 
     display: none;
-    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -64,4 +65,13 @@ li p{
 .contact img {
     height: 50px;
     width: 50px;
+}
+
+ button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio {
+    font-family: 'Orbitron', sans-serif;
 }
