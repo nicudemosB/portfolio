@@ -8,6 +8,12 @@ $('h2').on('click', () => {
 
 })
 
+$('p').on('click',function(){
+    $(this).hide()
+    
+
+});
+
 
 
 
