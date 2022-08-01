@@ -4,15 +4,16 @@ $('h1').on('mouseover', () => {
 })
 
 $('h2').on('click', () => {
-    $('.bio').show(2000)
+    
 
 })
 
-$('p').on('click',function(){
-    $(this).hide()
+// $('p').on('click',function(){
+//     $(this).hide()
+// window.scrollTo(0, 0)
     
 
-});
+
 
 
 
@@ -50,7 +51,7 @@ $('p').on('click',function(){
         $('.container').children().eq(currentImgIndex).css('display', 'block')
     })
     
-    
+  
     /////////////////////// This is a simple carousel that you can use for jquery /////////////////////
     
     
@@ -59,4 +60,21 @@ $('p').on('click',function(){
     
     
     });
+
+    function myFunction() {
+        document.getElementById('myDropdown').classList.toggle('show')
+    }
+
+    window.onclick = function(event) {
+        if(!event.target.matches('.dropbtn')) {
+            let dropdowns = document.getElementsByClassName('dropdown-content')
+            let i;
+            for(i = 0; i < dropdowns.length; i++) {
+                let openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
     
