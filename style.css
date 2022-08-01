@@ -167,4 +167,21 @@ modal-content {
     color: white;
     font-size: larger;
     text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+p, .text{
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+button, .dropbtn {
+    padding: 1em 2em;
+    font-size: 1.2em; font-weight: bold;
+    border: 4px solid black;
+    border-radius: 4px;
+    background-color: aqua;
+}
+
+button:hover {
+    background-color: yellowgreen;
 }
