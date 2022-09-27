@@ -194,7 +194,7 @@ button:hover {
     z-index:1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: grey;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5;
@@ -204,7 +204,7 @@ button:hover {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #020202;
     display: block;
     transition: 0.3s;
 }
@@ -231,6 +231,11 @@ button:hover {
     .sidenav a {font-size: 18px;}
 }
 
-.sidenav span {
- 
+h2 {
+    background-color: grey;
+    width: 100%;
 }
+.junior {
+    font-size: medium;
+}
+
