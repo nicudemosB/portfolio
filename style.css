@@ -73,6 +73,7 @@ li p{
     margin-left: auto;
     margin-right: auto;
     float: right;
+    
 }
 
 #bio {
@@ -101,7 +102,7 @@ li p{
 
 .dropdown{
     position: relative;
-    display: inline-block
+    display: block;
 }
 
 .dropdown-content {
@@ -119,7 +120,7 @@ li p{
     text-decoration:none;
     display: block;
 }
-.dropdown-content h3, hover {
+.dropdown-content li, hover {
     background-color: grey
 
 }
@@ -241,17 +242,3 @@ h2 {
     font-size: medium;
 }
 
-.dropdown-content li {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content li {
-   color: black;
-   padding: 12px 16px;
-   text-decoration: none;
-   display: block; 
-}
