@@ -185,6 +185,7 @@ button, .dropbtn {
     border-radius: 4px;
     background-color: aqua;
     color: black;
+
 }
 
 button:hover {
@@ -240,6 +241,11 @@ h2 {
 }
 .junior {
     font-size: medium;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: -150px;
 }
 
 
