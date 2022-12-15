@@ -76,6 +76,7 @@ li p{
     
 }
 
+
 #bio {
     font-family: 'Orbitron', sans-serif;
 }
@@ -187,6 +188,8 @@ button, .dropbtn {
     color: black;
 
 }
+
+
 
 button:hover {
     background-color: yellowgreen;
