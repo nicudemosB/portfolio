@@ -13,6 +13,11 @@ h1 {
 
 }
 
+/* .honda img {
+    height: 50%;
+    width: 50%;
+} */
+
 .container img:first-of-type {
 	display: block;
 

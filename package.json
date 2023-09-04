@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "prettier": "prettier --config .prettierrc 'src/**/*.js' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicudemosB/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicudemosB/portfolio/issues"
+  },
+  "homepage": "https://github.com/nicudemosB/portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
